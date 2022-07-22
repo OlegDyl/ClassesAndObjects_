@@ -1,1 +1,8 @@
-Intellij IDEA new project practice
+fun main() {
+
+      println("Олег")
+      // Мой комментарий
+
+      print("Брест")
+      //print("Немного изучал фронтенд")
+}
