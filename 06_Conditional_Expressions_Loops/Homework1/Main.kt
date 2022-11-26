@@ -1,0 +1,29 @@
+fun main () {
+    println("Enter a value")
+    var n = readLine()?.toIntOrNull() ?: return
+
+    while (n <= 0) {
+        println("Enter another number")
+        var n = readLine()?.toIntOrNull() ?: return
+    }
+    val f = myfunc(n)
+    println("$f")
+}
+fun myfunc(args: Int) {
+    var t1 = 1
+    var t2 = 2
+    println("$t2")
+
+    while (t1 <= args) {
+        println("$t1")
+
+        var sum = t1 + t2
+        t1 = t2
+        t2 = sum
+    }
+}
+
+
+
+
+
