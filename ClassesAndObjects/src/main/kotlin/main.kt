@@ -1,13 +1,8 @@
  fun main() {
-    val auto = Car()
+ val auto = Car()
 
-     println("Auto info")
-     println("${auto.brand} ${auto.model} ${auto.color} color")
+  println("Auto info")
+  println("${auto.brand}, ${auto.model}, ${auto.color}")
 
-     auto.start()
-     auto.move()
-     auto.move()
-     auto.move()
-     auto.move()
-     auto.stop()
+
 }

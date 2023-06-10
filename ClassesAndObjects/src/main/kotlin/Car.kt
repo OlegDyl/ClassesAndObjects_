@@ -3,16 +3,18 @@ import kotlin.random.Random
 class Car {
     val brand = "Audi"
     val model = "A3"
-    val color = "Red"
+    val color = "White"
 
     fun move() {
         val distance = Random.nextInt(1, 10)
         println("Car passed $distance km")
     }
-    fun start (){
-        println(" Car started")
+
+    fun start() {
+        println(" Start car")
     }
+
     fun stop() {
-        println(" Car stopped")
+        println(" Stop car")
     }
 }
