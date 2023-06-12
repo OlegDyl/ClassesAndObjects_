@@ -46,4 +46,15 @@ class Car(val brand: String = "Lada", val model: String = "Vesta", val color: St
     init {
         println("Second init")
     }
+    companion object {
+        const val wheelsCount = 4
+        fun getCarClass(length: Double): String = when {
+            length < 3.6 -> "A"
+            length < 3.9 -> "B"
+            length < 4.3 -> "C"
+            length < 4.6 -> "D"
+            length < 5 -> "E"
+            else -> "F"
+        }
+    }
 }
