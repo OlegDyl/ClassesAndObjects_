@@ -1,6 +1,13 @@
 package module8.lesson2
 
 object Channels {
+val channelList = listOf<String>("RU.TV", "Sony Sci-Fi", "International", "FILMUADRAMA",
+    "Fox Life", "Fox", "Dorama", "Star Family", "BOLT", "TRASH", "STAR Cinema")
+
+    fun channelmix() {              // функция должна смешивать каналы случайным образом. Пока не понятно или работает!!!
+        channelList.shuffled()
+    }
+    // после перемешивания каналов мы присваиваем им порядковые номера
 
 
     /* При создании объекта класса «Телевизор» проводится настройка каналов.
