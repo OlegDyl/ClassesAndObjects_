@@ -2,6 +2,7 @@ package module8.practical
 
 class TV(val brand: String, val model: String, val diagonal: String) {
 
+
   /*  var tvIsOn = false
     var volume: Int = 20  // звук в телевизоре(по умолчанию на 20)
     var channel: String // список каналов для телевизора
@@ -11,12 +12,13 @@ class TV(val brand: String, val model: String, val diagonal: String) {
         println("TV on")
         tvIsOn = true
     }
+*/
 
     fun tvOff(){         // функция выключения телевизора
         println("TV off")
-        tvIsOn = false
+       // tvIsOn = false
     }
-
+/*
     fun channelList() {      // список каналов - внутреннее свойство телевизора, недоступно для чтения
 
     }
